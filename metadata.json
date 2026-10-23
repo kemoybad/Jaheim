@@ -1,0 +1,6 @@
+{
+  "name": "Deriv Digit Analyzer & Auto-Trader",
+  "description": "Real-time Deriv digit analysis and auto-prediction trading tool for Matches contracts with OAuth sync, manual & automated trading, and live Demo & Real account management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
