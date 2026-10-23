@@ -202,8 +202,8 @@ const oauthCallbackHandler: express.RequestHandler = (req, res) => {
 </html>`);
 };
 
-app.get('/auth/callback', oauthCallbackHandler);
-app.get('/auth/callback/', oauthCallbackHandler);
+app.get('/oauth/callback', oauthCallbackHandler);
+app.get('/oauth/callback/', oauthCallbackHandler);
 
 // AI Pattern & Risk Analysis Endpoint (Gemini 3.8 Flash)
 app.post('/api/ai/analyze', async (req, res) => {
